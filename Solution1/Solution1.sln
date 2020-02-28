@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hw_01_assets", "hw_01_assets", "{356E952B-2FF9-46D9-A883-CFBBBBFA358C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\cours\ht1\booking_flowchart.png = ..\..\cours\ht1\booking_flowchart.png
+		..\..\cours\ht1\booking_text.txt = ..\..\cours\ht1\booking_text.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
