@@ -8,8 +8,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hw_01_assets", "hw_01_asset
 		..\..\cours\ht1\booking_flowchart.png = ..\..\cours\ht1\booking_flowchart.png
 		..\..\cours\ht1\booking_text.txt = ..\..\cours\ht1\booking_text.txt
 	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.02", "HW.02\HW.02.csproj", "{ADDCD854-D70F-45D8-A078-AB4599C294EA}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
