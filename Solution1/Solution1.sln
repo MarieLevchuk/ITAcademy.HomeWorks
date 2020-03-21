@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW06.Task1", "HW06.Task1\HW06.Task1.csproj", "{D65A7443-3D63-4CAE-A6A3-E1081CE8AAD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW06.Task2", "HW06.Task2\HW06.Task2.csproj", "{A31B3C14-83C3-481B-AC3A-FCBF706E9ABB}"
@@ -10,6 +11,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW06.Task3", "HW06.Task3\HW06.Task3.csproj", "{803B821E-403D-4EF3-8A3C-EE575E6804BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW06.Optionally", "HW06.Optionally\HW06.Optionally.csproj", "{53863031-AE4A-46F7-B583-95DF0D19E815}"
+
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hw_01_assets", "hw_01_assets", "{356E952B-2FF9-46D9-A883-CFBBBBFA358C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\cours\ht1\booking_flowchart.png = ..\..\cours\ht1\booking_flowchart.png
+		..\..\cours\ht1\booking_text.txt = ..\..\cours\ht1\booking_text.txt
+	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.02", "HW.02\HW.02.csproj", "{ADDCD854-D70F-45D8-A078-AB4599C294EA}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +26,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
 		{D65A7443-3D63-4CAE-A6A3-E1081CE8AAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D65A7443-3D63-4CAE-A6A3-E1081CE8AAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D65A7443-3D63-4CAE-A6A3-E1081CE8AAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +43,12 @@ Global
 		{53863031-AE4A-46F7-B583-95DF0D19E815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53863031-AE4A-46F7-B583-95DF0D19E815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53863031-AE4A-46F7-B583-95DF0D19E815}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
