@@ -13,7 +13,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hw_01_assets", "hw_01_asset
 		..\..\cours\ht1\booking_flowchart.png = ..\..\cours\ht1\booking_flowchart.png
 		..\..\cours\ht1\booking_text.txt = ..\..\cours\ht1\booking_text.txt
 	EndProjectSection
+
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.02", "HW.02\HW.02.csproj", "{ADDCD854-D70F-45D8-A078-AB4599C294EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.08", "HW.08\HW.08.csproj", "{47CC3655-84DF-4CBF-9849-1BBE8E463B7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.08.Task2", "HW.08.Task2\HW.08.Task2.csproj", "{3FDFBEE8-9252-47A1-800E-5A62B2481FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.08.Task3", "HW.08.Task3\HW.08.Task3.csproj", "{2AFC718E-2883-47CC-AB54-3B6C11AF9104}"
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.02", "HW.02\HW.02.csproj", "{ADDCD854-D70F-45D8-A078-AB4599C294EA}"
+
 
 EndProject
 Global
@@ -36,6 +47,21 @@ Global
 		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDCD854-D70F-45D8-A078-AB4599C294EA}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{47CC3655-84DF-4CBF-9849-1BBE8E463B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CC3655-84DF-4CBF-9849-1BBE8E463B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CC3655-84DF-4CBF-9849-1BBE8E463B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CC3655-84DF-4CBF-9849-1BBE8E463B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDFBEE8-9252-47A1-800E-5A62B2481FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDFBEE8-9252-47A1-800E-5A62B2481FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDFBEE8-9252-47A1-800E-5A62B2481FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDFBEE8-9252-47A1-800E-5A62B2481FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFC718E-2883-47CC-AB54-3B6C11AF9104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFC718E-2883-47CC-AB54-3B6C11AF9104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFC718E-2883-47CC-AB54-3B6C11AF9104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFC718E-2883-47CC-AB54-3B6C11AF9104}.Release|Any CPU.Build.0 = Release|Any CPU
+
+
 
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
