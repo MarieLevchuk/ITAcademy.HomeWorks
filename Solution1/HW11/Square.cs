@@ -9,6 +9,8 @@ namespace HW11
         public Square()
         {
             Name = "Square";
+
+            Logger.Log.Info($"Create a {Name}");
         }
 
         public override void AreaCalculate()

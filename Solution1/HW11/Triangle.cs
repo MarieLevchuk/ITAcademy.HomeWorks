@@ -12,6 +12,8 @@ namespace HW11
         {
             Name = "Triangle";
             Height = rnd.Next(1, 10);
+
+            Logger.Log.Info($"Create a {Name}");
         }
 
         public override void AreaCalculate()
