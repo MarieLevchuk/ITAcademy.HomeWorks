@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Logger;
 
 namespace CollectionRepository
 {
@@ -8,7 +9,7 @@ namespace CollectionRepository
     {
         static void Main(string[] args)
         {
-
+            //Logging.InitLogger();
         }
     }
 }

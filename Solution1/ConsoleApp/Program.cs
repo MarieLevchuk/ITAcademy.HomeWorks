@@ -2,6 +2,8 @@
 using Models;
 using CollectionRepository;
 using System.Collections.Generic;
+using Logger;
+
 
 namespace ConsoleApp
 {
@@ -9,6 +11,9 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            Logging.InitLogger();
+            Logging.Log.Info($"Start {typeof(Program)}");
+
             MotoRepository motoRepository = new MotoRepository();
 
 
@@ -32,10 +37,15 @@ namespace ConsoleApp
 
             motoRepository.DeleteMoto(2);
 
+            Moto motoNull = null;
+            motoRepository.CreateMoto(motoNull);
+
         }
         public static void PrintInfo(Moto moto)
         {
             Console.WriteLine($"{moto.Model} - {moto.Name} - {moto.Odometer} - ${moto.Price}\n");
+
+            Logging.Log.Info("Method \"PrintInfo\" called");
         }
     }
 }

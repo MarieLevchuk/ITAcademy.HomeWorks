@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Logger;
 
 namespace Models
 {
@@ -8,7 +9,7 @@ namespace Models
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
